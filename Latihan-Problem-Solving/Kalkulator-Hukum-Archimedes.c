@@ -59,7 +59,7 @@ int main() {
         scanf("%f", &g);
     
         Fa = pf * vfD * g;
-        printf("Fa = %0.0f N", Fa);
+        printf("Fa = %0.2f N", Fa);
     } else if (a == 2){
         printf("\npf = Fa / (vfD * g)\n");
         
@@ -71,19 +71,19 @@ int main() {
         scanf("%f", &g);
         
         pf = Fa / (vfD * g);
-        printf("pf = %0.0f kg/m^3", pf);
+        printf("pf = %0.2f kg/m^3", pf);
     } else if(a == 3){
         printf("\nvfD = Fa / (pf * g)\n");
         
         printf("\nMasukkan Fa   (N)         : ");
         scanf("%f", &Fa);
-        printf("\nMasukkan VfD  (kg/m^3)    : ");
+        printf("\nMasukkan pf  (kg/m^3)    : ");
         scanf("%f", &pf);
         printf("Masukkan g      (m/s^2)     : ");
         scanf("%f", &g);
             
         vfD = Fa / (pf * g);
-        printf("vfD = %0.0f m^3", vfD);
+        printf("vfD = %0.2f m^3", vfD);
     } else if (a == 4){
         printf("\ng = Fa / (pf * vfD)\n");
         
@@ -95,7 +95,7 @@ int main() {
         scanf("%f", &vfD);
             
         g = Fa / (pf * vfD);
-        printf("g = %0.0f m/s^2", g);
+        printf("g = %0.2f m/s^2", g);
     } else if (a == 5){
         printf("\npf * vfD = pb * vb\n");
         
@@ -124,7 +124,7 @@ int main() {
             scanf("%f", &vb);
             
             pf = (pb * vb) / vfD;
-            printf("pf = %0.0f kg/m^3", pf);
+            printf("pf = %0.2f kg/m^3", pf);
         } else if(b == 2){
             printf("\nvfD = (pb * vb) / pf\n");
             
@@ -136,7 +136,7 @@ int main() {
             scanf("%f", &vb);
             
             vfD = (pb * vb) / pf;
-            printf("vfD = %0.0f m^3", vfD);
+            printf("vfD = %0.2f m^3", vfD);
         } else if (b == 3){
             printf("\npb = (pf * vfD) / vb\n");
             
@@ -148,7 +148,7 @@ int main() {
             scanf("%f", &vb);
             
             pb = (pf * vfD) / vb;
-            printf("pb = %0.0f kg/m^3", pb);
+            printf("pb = %0.2f kg/m^3", pb);
         } else if (b == 4){
             printf("\nvb = (pf * vfD) / pb\n");
             
@@ -160,7 +160,7 @@ int main() {
             scanf("%f", &pb);
             
             vb = (pf * vfD) / pb;
-            printf("vb = %0.1f m^3", vb);
+            printf("vb = %0.2f m^3", vb);
         } else if(b == 5){
             printf("\ntpb = (pf * vfD = pb * vb) * tb\n");
             
@@ -196,7 +196,7 @@ int main() {
         printf("Masukkan Wf   (N) : ");
         scanf("%f", &Wf);
         Fa = Wu - Wf;
-        printf("Fa = %0.1f N\n", Fa);
+        printf("Fa = %0.2f N\n", Fa);
         
         printf("\nMasukkan g    (m/s^2)     : ");
         scanf("%f", &g);
@@ -204,7 +204,7 @@ int main() {
         scanf("%f", &pf);
         
         pb = (Wu * pf) / Fa;
-        printf("pb = %0.0f (kg/m^3)", pb);
+        printf("pb = %0.2f (kg/m^3)", pb);
     } else{
         printf("\nGaada pilihan itu, kocak.");
     }
