@@ -8,4 +8,5 @@ Online Compiler using https://www.programiz.com/c-programming/online-compiler/
 ### Dua Dimensi
 ### Tiga Dimensi
 [Ciri-Ciri, Soal, dan Pembahasan Mengenai Luas dan Volume Kerucut](https://executive-education.id/blog/rumus-luas-kerucut/)\
-[Ciri-Ciri, Soal, dan Pembahasan Mengenai Luas dan Volume Tabung](https://skolla.online/blog/mata-pelajaran/apa-itu-tabung/)
+[Ciri-Ciri, Soal, dan Pembahasan Mengenai Luas dan Volume Tabung](https://skolla.online/blog/mata-pelajaran/apa-itu-tabung/)\
+[Ciri-Ciri, Soal, dan Pembahasan Mengenai Luas dan Volume Bola](https://executive-education.id/blog/rumus-luas-bola/)
